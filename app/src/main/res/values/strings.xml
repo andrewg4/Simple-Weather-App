@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OpenWeatherMap App</string>
+
+    <string name="today_forecast">Today</string>
+    <string name="five_day_forecast">5 Day Forecast</string>
+    <string name="text_location">Location</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_title_error">Please, fill out the field</string>
+    <string name="dialog_title_location">Location</string>
+    <string name="change_location_menu_item">Change location</string>
+    <string name="refresh_data">Refresh Data</string>
+    <string name="degree_c">°</string>
+    <string name="celsius">C</string>
+    <string name="percent">%</string>
+    <string name="humidity">"humidity: "</string>
+    <string name="error_connection_text">Please check your Internet Connection</string>
+    <string name="error_location_field">Please fill out location field correctly!</string>
+    <string name="default_location_value">Mykolaiv</string>
+
+
+</resources>

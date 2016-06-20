@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/t_city_country"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/t_dt"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t_city_country"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/t_weather_icon"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/t_dt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+
+    <TextView
+        android:id="@+id/t_main"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t_weather_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/t_temp"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t_main"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/t_min_max"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t_temp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/t_humidity"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t_min_max"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

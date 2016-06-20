@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp"
+        tools:targetApi="lollipop">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fd_weather_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/fd_dt"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="25dp"
+                android:layout_toLeftOf="@+id/fd_temp"
+                android:layout_toRightOf="@+id/fd_temp"
+                android:layout_toStartOf="@+id/fd_temp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/fd_humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="65dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fd_temp"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="end"
+                android:textSize="35sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
